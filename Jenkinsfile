@@ -21,6 +21,11 @@ pipeline {
             steps {
                 echo 'deployment'
             }
+        stage('storage') {
+            steps {
+                echo 'deployment'
+            }
+            }
         }
     }
 }
